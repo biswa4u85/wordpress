@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,300,700");
+
+@import url("normalize.css");
+
+@import url("typography.css");
+
+@import url("fontawesome.css");
+
+@import url("colors.css");
+
+@import url("style.css");
+
+
+
+body{height:100%}.demo_settings{padding:30px 20px;width:270px;height:100%;background-color:#fff;z-index:10000;position:fixed;top:0;left:-270px;-webkit-backface-visibility:hidden;backface-visibility:hidden}.demo_settings_inner{overflow:visible;overflow-x:hidden;height:100%}.demo_settings.show{left:0;box-shadow:0 0 20px 5px #000;box-shadow:0 0 20px 5px rgba(0,0,0,.3)}.demo_settings_init{cursor:pointer;display:block;position:absolute;top:100px;right:-50px;width:50px;height:50px;line-height:50px;color:#fff;font-size:18px;background-color:#111;text-align:center}.demo_settings section.title{margin-bottom:30px}.demo_settings section.title h2{text-transform:uppercase;margin:0;font-size:30px;line-height:1}.demo_settings section.title h4{font-weight:300;font-size:18px;line-height:1;text-transform:uppercase}#accordion .ui-accordion-content{padding-bottom:20px}h5.subtitle{position:relative;cursor:pointer;outline:0;font-size:18px;text-transform:uppercase;margin-bottom:5px;color:#ed1d39;font-weight:400;border-bottom:1px solid #eee;padding-bottom:5px}h5.subtitle:after{display:block;width:15px;text-align:center;font-weight:300;content:"+";position:absolute;right:0;top:0;color:#999;font-size:20px}h5.subtitle.ui-state-active:after{content:"-"}.group:after,.group:before{content:" ";display:table}.group:after{clear:both}.group label{float:left;font-size:16px;font-weight:400;margin-bottom:5px}.group ul{list-style:none;padding:0;margin:4px 0 0;float:right}.group ul li{cursor:pointer;position:relative;float:left;margin:0 0 0 5px;width:15px;height:15px;background-color:#ddd;border-radius:50%}.group ul li,.group ul li.active span{-webkit-border-radius:50%;-moz-border-radius:50%}.group ul li.active span{position:absolute;left:4px;top:4px;width:7px;height:7px;display:block;background-color:#111;z-index:1;border-radius:50%}.hidden{display:none!important}.group .background_image_bg,.group .background_image_pattern,.group .color_pallete{margin-top:0;margin-bottom:10px;overflow:hidden;float:none;display:block;clear:both}.group .background_image_bg li,.group .background_image_pattern li,.group .color_pallete li{background-size:cover;border:3px solid #ddd;background-color:#fff;display:block;width:9%;height:21px;margin:0 1% 0 0;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}.group .background_image_bg li.active,.group .background_image_pattern li.active,.group .color_pallete li.active{border:3px solid #111}body.patt2{background-image:url(../img/patterns/patt2.png)}body.patt3{background-image:url(../img/patterns/patt3.png)}body.patt4{background-image:url(../img/patterns/patt4.png)}body.patt5{background-image:url(../img/patterns/patt5.png)}body.patt6{background-image:url(../img/patterns/patt6.png)}body.patt7{background-image:url(../img/patterns/patt7.png)}body.patt8{background-image:url(../img/patterns/patt8.png)}body.patt9{background-image:url(../img/patterns/patt9.png)}body.patt10{background-image:url(../img/patterns/patt10.png)}body.matt10,body.matt2,body.matt3,body.matt4,body.matt5,body.matt6,body.matt7,body.matt8,body.matt9{background-attachment:fixed;background-repeat:no-repeat;background-size:cover}body.matt2{background-image:url(../img/backgrounds/matt2.jpg)}body.matt3{background-image:url(../img/backgrounds/matt3.jpg)}body.matt4{background-image:url(../img/backgrounds/matt4.jpg)}body.matt5{background-image:url(../img/backgrounds/matt5.jpg)}body.matt6{background-image:url(../img/backgrounds/matt6.jpg)}body.matt7{background-image:url(../img/backgrounds/matt7.jpg)}body.matt8{background-image:url(../img/backgrounds/matt8.jpg)}body.matt9{background-image:url(../img/backgrounds/matt9.jpg)}body.matt10{background-image:url(../img/backgrounds/matt10.jpg)}@media all and (max-width:829px){.demo_settings{display:none}}
+
+
+
+.owl-carousel .owl-item img {transition:transform 0.3s ease 0s, opacity 0.3s ease 0s;}
+
+.owl-carousel .owl-item img:hover {transform: scale3d(1.1, 1.1, 1) rotate(0.02deg)}
+.instagram-pics li {width:48%!important; margin:1%!important; float:left!important; clear: none !important;}
+.instagram-pics li img {width:100%;}

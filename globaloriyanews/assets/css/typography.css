@@ -1,0 +1,22 @@
+@font-face {
+font-family: 'ODIA-OT-V2';
+src: url('../fonts/ODIA-OT-V2.eot?') format('eot'), 
+url('../fonts/ODIA-OT-V2.woff') format('woff'), 
+url('../fonts/ODIA-OT-V2.ttf') format('truetype'), 
+url('../fonts/ODIA-OT-V2.svg#webfontwTBKaDwa') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Ol-Chiki-Bivash-Shadow';
+src: url('../fonts/Ol-Chiki-Bivash-Shadow.eot?') format('eot'), 
+url('../fonts/Ol-Chiki-Bivash-Shadow.woff') format('woff'), 
+url('../fonts/Ol-Chiki-Bivash-Shadow.ttf') format('truetype'), 
+url('../fonts/Ol-Chiki-Bivash-Shadow.svg#webfontwTBKaDwa') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+
+body{font-family:'Ol-Chiki-Bivash-Shadow',Arial,Helvetica,sans-serif}h1,h2,h3,h4,h5,h6{font-family:'Ol-Chiki-Bivash-Shadow',Oswald,serif}

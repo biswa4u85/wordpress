@@ -1,0 +1,78 @@
+@media (min-width: 320px) and (max-width: 991px) {
+.banner-info h1 span {
+    font-size: 91px;
+}
+
+.banner-info h1 {
+	font-size: 48px;
+}
+
+.banner-info h2 {
+    font-size: 31px;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+.banner-info h1 {
+    font-size: 38px;
+}
+.banner-info h1 span {
+    font-size: 72px;
+    display: block;
+}
+.banner-info h2 {
+    font-size: 24px;
+}
+.quote-form h1 {
+    font-size: 31px;
+    font-weight: 900;
+}
+.banner-info h1 {
+	margin-top: 0;
+}
+
+.c-logo {
+	margin-top: 20px;
+}
+.call-to-action .phone-number {
+    font-size: 32px;
+}
+
+.call-to-action p{
+	font-size: 16px;
+}
+
+.ser-off h2{
+	font-size: 22px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.fe-con {
+	margin-bottom: 20px;
+}
+
+.b-call-to-action .ge-btn{
+	font-size: 36px;
+}
+
+.banner-info p{
+	margin-bottom: 40px;
+}
+
+.top-r-caption, .top-name {
+	text-align: center;
+}
+
+.footer-con {
+	text-align: center;
+}
+
+.footer-con img{
+	display: block;
+	margin: 20px auto auto auto;
+}
+
+}
+

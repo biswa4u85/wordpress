@@ -1,0 +1,22 @@
+.sidebar-nav h3, footer h3 { color:#c31e1a; border-color:#c31e1a;}
+.footer-mainbg { background:#c31e1a;}
+.conten-bot{text-shadow: 1px 1px 1px #000000; background: url(../img/conten-bot-brightred.png) no-repeat scroll center top transparent;}
+a{ color:#c31e1a;}
+a:hover{ color:#c31e1a;}
+.nav1 li a{color:#c31e1a; border-color:#c31e1a;}
+.nav1 li a:hover{color:#c31e1a; border-color:#c31e1a;}
+.nav1 li ul.children{border-color:#c31e1a;}
+.nav1 li ul.children a:hover{ color:#c31e1a;}
+.search{ background: url(../img/search-bg-brightred.png) no-repeat scroll left top transparent;}
+.notify{ color:#c31e1a;}
+h1{color:#c31e1a;}
+h1 a{color:#c31e1a;}
+
+.heading .navbar-inverse .btn-navbar { background: url(../img/mob-nav-brightred.png) no-repeat top left; width:34px; height:21px;cursor: pointer;
+    margin: 10px 0 0;
+    padding: 0;}
+
+@media (max-width: 979px) {
+.nav1 li ul.children li a:hover{ color:#c31e1a !important;}
+
+}

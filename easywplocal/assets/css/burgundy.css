@@ -1,0 +1,22 @@
+.sidebar-nav h3, footer h3 { color:#8a0e2e; border-color:#8a0e2e;}
+.footer-mainbg { background:#8a0e2e;}
+.conten-bot{text-shadow: 1px 1px 1px #000000; background: url(../img/conten-bot-Burgundy.png) no-repeat scroll center top transparent;}
+a{ color:#8a0e2e;}
+a:hover{ color:#8a0e2e;}
+.nav1 li a{color:#8a0e2e; border-color:#8a0e2e;}
+.nav1 li a:hover{color:#8a0e2e; border-color:#8a0e2e;}
+.nav1 li ul.children{border-color:#8a0e2e;}
+.nav1 li ul.children a:hover{ color:#8a0e2e;}
+.search{ background: url(../img/search-bg-burgundy.png) no-repeat scroll left top transparent;}
+.notify{ color:#8a0e2e;}
+h1{color:#8a0e2e;}
+h1 a{color:#8a0e2e;}
+
+.heading .navbar-inverse .btn-navbar { background: url(../img/mob-nav-Burgundy.png) no-repeat top left; width:34px; height:21px;cursor: pointer;
+    margin: 10px 0 0;
+    padding: 0;}
+
+@media (max-width: 979px) {
+.nav1 li ul.children li a:hover{ color:#8a0e2e !important;}
+
+}

@@ -1,0 +1,293 @@
+/*
+Theme Name: The Henson Group
+Description: In 2015, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors.
+Version: 1.6
+License: GNU General Public License v2 or later
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: twentyfourteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Reset
+ * 2.0 - Repeatable Patterns
+ * 3.0 - Basic Structure
+ * 4.0 - Header
+ * 5.0 - Navigation
+ * 6.0 - Content
+ *   6.1 - Post Thumbnail
+ *   6.2 - Entry Header
+ *   6.3 - Entry Meta
+ *   6.4 - Entry Content
+ *   6.5 - Galleries
+ *   6.6 - Post Formats
+ *   6.7 - Post/Image/Paging Navigation
+ *   6.8 - Attachments
+ *   6.9 - Archives
+ *   6.10 - Contributor Page
+ *   6.11 - 404 Page
+ *   6.12 - Full-width
+ *   6.13 - Singular
+ *   6.14 - Comments
+ * 7.0 - Sidebar
+ *   7.1 - Widgets
+ *   7.2 - Content Sidebar Widgets
+ * 8.0 - Footer
+ * 9.0 - Featured Content
+ * 10.0 - Multisite
+ * 11.0 - Media Queries
+ * 12.0 - Print
+ * -----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1.0 Reset
+ *
+ * Resetting and rebuilding styles have been helped along thanks to the fine
+ * work of Eric Meyer, Nicolas Gallagher, Jonathan Neal, and Blueprint.
+ *
+ * -----------------------------------------------------------------------------
+ */
+
+.srch-submit{
+    background: transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    right: 7px;
+    top: 0;
+    width: 50px;
+	opacity: 0.5;
+}
+.searchBox2 .srch-submit {  
+	background-color: #0b61a4;
+    color: #fff;
+    font-size: 18px;
+    height: 38px;
+    opacity: 1;
+    right: 0;
+    width: 40px;
+}
+.es_textbox_class {
+    padding: 6px 4px;
+    width: 100% !important;
+}
+.es_textbox_button {
+	background: transparent;
+    border: 1px solid #000;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    width: 100% !important;
+}
+.comment_form .comment-reply-title, .comments-title { display:none; }
+.comment-form label {
+   color: #363636;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.comment-form input, .comment-form textarea {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 8px 6px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    width: 90%;
+}
+.comment-form input[type="submit"] {
+    width: 200px;
+    background: transparent;
+    border: 1px solid #000;
+    padding-bottom: 6px;
+    padding-top: 6px;
+	margin:10px 0 0;
+}
+#fscf_form4 input[type="submit"], #fscf_form1 input[type="submit"] {
+     background: transparent;
+    border: 1px solid #0b61a4;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #0b61a4;
+    padding: 10px 35px;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 200ms ease-in 0s;
+}
+#fscf_form4 input[type="submit"]:hover, #fscf_form1 input[type="submit"]:hover { background: #0b61a4; color: #ffffff;}
+
+.FootPaneD form label {display:none;}
+.FootPaneD form input[type="submit"] {  background: transparent;
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 8px 10px;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 200ms ease-in 0s;
+	border: 2px solid #009b85; 
+	color: #009b85;
+}
+.FootPaneD form input[type="submit"]:hover { background: #009b85; color:#fff;}
+
+.survey input[type="text"], .survey input[type="email"],.survey select, .survey textarea {
+	border-radius: 3px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.3;
+    padding: 11px 20px;
+	border: 1px solid;
+	transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	margin:5px 0;
+}
+.survey .form_input select option {
+    padding: 2px 20px;
+}
+.survey form {
+    margin: auto;
+    width: 550px;
+}
+.survey input[type="submit"] {
+     background: transparent;
+    border: 1px solid #0b61a4;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #0b61a4;
+    padding: 10px 35px;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 200ms ease-in 0s;
+}
+.survey input[type="submit"]:hover { background: #0b61a4; color: #ffffff;}
+
+
+.tp-caption.medium_bg_asbestos {
+    background-color: transparent !important;
+    border-color: transparent !important;
+	font-size: 30px !important;
+	line-height: 40px !important;
+        
+}
+.tp-caption.medium_bg_darkblue {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    font-size: 20px !important;
+	line-height: 23px !important;
+	font-weight:400 !important;
+       
+}
+.tp-caption.short_bg_darkblue {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    font-size: 13px !important;
+	line-height: 23px !important;
+	font-weight:400 !important;
+	color:#fff !important;
+        
+}
+.tp-caption.btn_orange {
+    background-color: #ff9200 !important;
+    border-color: transparent !important;
+    font-size: 13px !important;
+	line-height: 23px !important;
+	font-weight:400 !important;
+	padding:4px 7px !important;
+        display:none;
+}
+.tp-caption.btn_trans {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    font-size: 13px !important;
+	line-height: 23px !important;
+	font-weight:400 !important;
+	padding:4px 7px !important;
+        display:none;
+}
+.tp-caption .fa-angle-right {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+
+}
+.tp-caption.orange { color:#FF9200 !important; }
+.tp-caption .white { color:#fff !important; }
+
+/* Client Page */
+.client_cat { width:100%; float:left; margin:10px 0; }
+.client_cat ul{ border-top: 1px solid; border-bottom: 1px solid; margin: 0 0 82px; padding-top: 5px; padding-bottom: 5px; padding-left: 156px; }
+.client_cat ul:last-child{ border-bottom:none; }
+.client_cat li { display: inline; margin: 0 15px 0 0;}
+.client_cat img { width: 778px;}
+
+/* office page */
+
+.office_cat { width:100%; float:left; margin:05px 0; }
+.office_cat ul{ border-top: 1px solid; padding-top: 5px;margin: 0 0 0px;  padding-left: 0px; }
+.office_cat ul:last-child{ border-bottom:none; }
+.office_cat li { display: inline; margin: 0 15px 0 0;}
+.office_cat img { width: 778px;}
+
+.About_info ul { margin-bottom:25px;}
+
+#fscf_captcha_image2, #fscf_captcha_image1, #fscf_captcha_image3 {
+    height: 48px;
+    width: 125px;
+}
+#fscf_captcha_image_div2 > div, #fscf_captcha_image_div1 > div ,#fscf_captcha_image_div3 > div   {
+    vertical-align: middle;
+    margin: 15px 0 0;
+}
+
+.screen-reader-text {display:none;}
+.method { width:100%; float:left; }
+.method .method_cntn { width:731px; float:none; margin:auto; }
+.method img { margin:0 auto 15px; float:none; display:block; }
+
+@media ( max-width:767px ) { 
+	.tp-caption.medium_bg_asbestos { font-size: 20px !important; line-height: 25px !important; }
+	.tp-caption.medium_bg_darkblue, .tp-caption.short_bg_darkblue, .tp-caption.btn_orange, 
+	.tp-caption.btn_trans { display:none;}
+	.method .method_cntn { width:100%; }
+}
+
+@media ( max-width:639px ) { 
+.survey form, .survey .form_input select option {  width: 100%;}
+}
+
+/*Added by ABC for Support Page*/
+form table#tblPrimaryPhone select,form table#tblSecondaryPhone select{width: 150px; margin-right: 10px;}
+
+body .cycloneslider-template-standard .cycloneslider-pager{
+    left: 10px;
+    bottom: 22px;
+    box-shadow:0px 0px 2px black;
+    background: #fff;
+    width: auto;
+    text-align: left;
+}
+body .cycloneslider-template-standard .cycloneslider-pager span{
+    box-shadow:1px 1px 2px 0px #fff;
+    background:#fff;
+    width: 20px;
+}
+body .cycloneslider-template-standard .cycloneslider-pager span.cycle-pager-active{
+    background:#000;
+    border-radius:0;
+}

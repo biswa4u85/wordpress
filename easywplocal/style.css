@@ -1,0 +1,48 @@
+/*
+
+Theme Name: Easy WP Local 
+
+URI: http://www.easywplocal.com
+
+Author: Easy WP Local
+
+Author URI: http://www.easywplocal.com
+
+Description: Easy WP Local is an easy to customize theme for local businesses.
+
+Version: 3.0
+
+=======
+
+License: GNU General Public License
+
+License URI: license.txt
+
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+
+
+The development of BootstrapWP was powered by Sublime Text 2 and lots of Diet Coke.
+
+Use this starter theme to make something cool.  Please share the results with me via Twitter @rachelbaker.
+
+Enjoy!
+
+
+
+*/
+
+/********************************************************
+
+
+
+Comfortable with LESS?  Check out the /assets/css/less folder where the bootstrapwp.less file is the master complier
+
+
+
+Not comfortable with LESS?  You can override the compiled bootstrapwp.css file by adding custom styles here.
+
+-------------------------------------------------- */
+.error { color:#ff0000;}
